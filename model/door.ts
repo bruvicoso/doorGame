@@ -41,8 +41,4 @@ export default class DoorModel {
         const isOpen = true
         return new DoorModel(this.number, this.hasPresent, this.selected, isOpen)
     }
-
-    onChange() {
-        
-    }
 }
