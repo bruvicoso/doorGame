@@ -5,7 +5,7 @@ import DoorModel from "../model/door";
 
 export default function Home() {
 
-  const [doors, setDoors] = useState(createDoors(3, 2))
+  const [doors, setDoors] = useState(createDoors(4, 2))
 
   function renderDoors() {
     return doors.map(door => {

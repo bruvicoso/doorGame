@@ -1,8 +1,8 @@
-import styles from "../styles/Present.module.css"
+import styles from "../styles/Gift.module.css"
 
-export default function Present() {
+export default function Gift() {
     return (
-        <div className={styles.present}>
+        <div className={styles.gift}>
             <div className={styles.top} />
             <div className={styles.box} />
             <div className={styles.bow1} />
