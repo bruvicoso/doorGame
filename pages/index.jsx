@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Door from "../components/Door";
 import { createDoors, updateDoors } from "../functions/door"
-import DoorModel from "../model/door";
 
 export default function Home() {
 
@@ -17,7 +16,7 @@ export default function Home() {
 
   return (
     <div style={{display: "flex"}}>
-      {renderDoors()}
+      <h1>Inicio do game</h1>
     </div>
   )
 }
