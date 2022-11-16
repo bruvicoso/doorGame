@@ -4,7 +4,12 @@ The Monty Hall problem is a brain teaser, in the form of a probability puzzle.
 ## Screenshots 
 
 ![image](https://user-images.githubusercontent.com/33518981/202148460-6190b887-621a-41bd-85b3-9f85cf1d9c01.png)
+![image](https://user-images.githubusercontent.com/33518981/202150787-4845585b-66db-4249-9b91-56b3b013e85b.png)
+
+Click in the door to select
 ![image](https://user-images.githubusercontent.com/33518981/202148018-ad2500a9-0ce0-4913-86ae-1b5705cf10e7.png)
+
+When click in the knob you will open the door
 ![image](https://user-images.githubusercontent.com/33518981/202148090-5a1e23af-6fef-4976-9757-824f6861af18.png)
 ![image](https://user-images.githubusercontent.com/33518981/202147786-e64d55d4-b279-43c5-9673-e365d15c5333.png)
 
