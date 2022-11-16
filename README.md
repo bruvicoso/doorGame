@@ -1,10 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a small project to excercise nextJS. 
+The Monty Hall problem is a brain teaser, in the form of a probability puzzle.
+
+## Screenshots 
+
+![image](https://user-images.githubusercontent.com/33518981/202148460-6190b887-621a-41bd-85b3-9f85cf1d9c01.png)
+![image](https://user-images.githubusercontent.com/33518981/202148018-ad2500a9-0ce0-4913-86ae-1b5705cf10e7.png)
+![image](https://user-images.githubusercontent.com/33518981/202148090-5a1e23af-6fef-4976-9757-824f6861af18.png)
+![image](https://user-images.githubusercontent.com/33518981/202147786-e64d55d4-b279-43c5-9673-e365d15c5333.png)
+
 
 ## Getting Started
-
-![image](https://user-images.githubusercontent.com/33518981/202046516-d97efd05-4b87-4ff9-aa00-d7385d669d2c.png)
-
-
 First, run the development server:
 
 ```bash
@@ -15,11 +20,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+________________________________________________________________________________________________________
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
