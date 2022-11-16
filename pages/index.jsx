@@ -38,10 +38,9 @@ export default function Form() {
 			</div>
 			<div>
 				<Card>
-					<InputNumber text="What door is the present?" value={giftDoor} onChange={newDoor => setGiftDoor(newDoor)} />
+					<InputNumber text="What door is the gift?" value={giftDoor} onChange={newDoor => setGiftDoor(newDoor)} />
 				</Card>
 				<Card bgcolor="#28a085">
-					{/* <Link href={`/game/${amountDoors}/${giftDoor}`} as={`/game`}> */}
 					<Link href={{ pathname: '/game', query: { amountDoors, giftDoor } }} as="/game">
 						<h2 className={styles.link} onClick={e => validation(e)}>Start</h2>
 					</Link>
