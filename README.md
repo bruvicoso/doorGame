@@ -1,4 +1,4 @@
-This is a small project to excercise nextJS. 
+This is a small project to excercise nextJS, TypeScript and CSS. 
 The Monty Hall problem is a brain teaser, in the form of a probability puzzle.
 
 ## Screenshots 
