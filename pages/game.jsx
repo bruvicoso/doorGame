@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Door from "../../../components/Door";
-import { createDoors, updateDoors } from "../../../functions/door"
-import styles from "../../../styles/Game.module.css"
+import Door from "../components/Door";
+import { createDoors, updateDoors } from "../functions/door"
+import styles from "../styles/Game.module.css"
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Head from "next/head";
@@ -12,8 +12,8 @@ export default function Game() {
   const [doors, setDoors] = useState([])
 
   useEffect(() => {
-    const amountDoors = +router.query.doors
-    const hasGift = +router.query.hasGift
+    const amountDoors = +router.query.amountDoors
+    const hasGift = +router.query.giftDoor
     setDoors(createDoors(amountDoors, hasGift))
   }, [router?.query])
 
